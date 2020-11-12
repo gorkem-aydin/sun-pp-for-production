@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog contentWidth="50%" title="{i18n>orderItems}">
+		<Table id="tableOrders" items="{modelView>/OrderItems}" inset="false" growing="true" growingThreshold="50" noDataText="Sonuç Bulunamadı">
+			<columns>
+				<Column>
+					<Text text="{i18n>orderItems}"/>
+				</Column>
+				<Column>
+					<Text text="{i18n>ebelpItems}"/>
+				</Column>
+				<!--	<Column>-->
+				<!--	<Text text="{i18n>navToApp}"/>-->
+				<!--</Column>-->
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<ObjectIdentifier titlePress="onNavigateApp" titleActive="true" title="{modelView>Ebeln}"/>
+						<!--<Text text="{modelView>Ebeln}"/>-->
+						<Text text="{modelView>Ebelp}"/>
+						<!--<Button text="{i18n>navToAppDetail}"  icon="sap-icon://display" width="7rem" type="Emphasized" press="onNavigateApp"></Button>-->
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+			<endButton>
+			<Button text="{i18n>closeFragment}" width="7rem" type="Reject" press="onDialogCloseButton"></Button>
+		</endButton>
+		<!--<endButton>-->
+		<!--	<Button text="{i18n>navToApp}" width="7rem" type="Emphasized" press="onNavigateApp"></Button>-->
+		<!--</endButton>-->
+	</Dialog>
+</core:FragmentDefinition>

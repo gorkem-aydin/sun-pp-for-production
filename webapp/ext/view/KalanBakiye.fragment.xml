@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:table="sap.ui.table">
+	<table:Column id="ExtensionWizard::ColumnBreakout" width="150px">
+		<Text text="{i18n>KalanBakiye}"/>
+		<table:customData >
+			<core:CustomData key="p13nData" value='\{"columnKey": "KalanBakiye", "columnIndex" : "0"}'/>
+		</table:customData>
+		<table:template >
+			<Input  class="mydata"
+  value="{ path: 'KalanBakiye', type: 'sap.ui.model.type.Float', formatOptions: {decimalSeparator: ',', groupingSeparator:'.', decimals:2, maxFractionDigits: '2' }}"
+	/>
+		</table:template>
+	</table:Column>
+	<table:Column id="ExtensionWizard::ColumnBreakoutA" width="100px">
+		<Text visible="{=${Items}.length > 0 ? true : false}" text="{i18n>sipbelgeno}"/>
+		<table:customData>
+			<core:CustomData key="p13nData" value='\{"columnKey": "Ebeln", "columnIndex" : "1"}'/>
+		</table:customData>
+		<table:template>
+			<Button width="100px" visible="{=${Items}.length > 0 ? true : false}" text=" {=${Items}.length}" icon="sap-icon://list" press="onPressEbeln"/>
+		</table:template>
+	</table:Column>
+</core:FragmentDefinition>

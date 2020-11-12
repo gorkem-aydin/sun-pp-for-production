@@ -1,0 +1,43 @@
+{
+	"fileName": "id_1605097534466_92_propertyChange",
+	"fileType": "change",
+	"changeType": "propertyChange",
+	"moduleName": "",
+	"reference": "com.sun.zpp_for_production.Component",
+	"packageName": "$TMP",
+	"content": {
+		"property": "width",
+		"newValue": "10em"
+	},
+	"selector": {
+		"id": "com.sun.zpp_for_production::sap.suite.ui.generic.template.ListReport.view.ListReport::GetMainListSet--listReport-Matnr",
+		"type": "sap.ui.table.Column",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/com.sun.zpp_for_production/changes/",
+	"projectId": "com.sun.zpp_for_production",
+	"creation": "2020-11-11T12:25:35.229Z",
+	"originalLanguage": "EN",
+	"conditions": {},
+	"context": "",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.71.23",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"validAppVersions": {
+		"creation": "1.0.0",
+		"from": "1.0.0",
+		"to": "1.0.0"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

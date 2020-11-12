@@ -1,0 +1,5 @@
+.sapUiSizeCondensed .sapUiTableCell .sapMInputBaseInner:not(.sapMInputBaseContentWrapperState) {
+    border-color: darkgray;
+    box-sizing: border-box;
+    border-style: double;
+}
